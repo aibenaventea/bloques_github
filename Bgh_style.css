@@ -27,7 +27,7 @@ span {
     width: 930px;
     background-color:deepskyblue;
     /* padding: 5px 5px 5px 5px; */
-    /* margin: 20px; */
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -35,7 +35,7 @@ span {
     width: 930px;
     background-color:lightcoral;
     /* padding: 5px 5px 5px 5px; */
-    /* margin: 0px; */
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -43,12 +43,13 @@ span {
     width: 930px;
     background-color:white;
     /* padding: 5px 5px 5px 5px; */
-    /* margin: 20px; */
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
 }
-.octocat {
-    height: 200px;
-    /* padding: 5px 5px 5px 5px; */
+img {
     margin: 20px;
+}
+img.octocat {
+    height: 200px;
 }
